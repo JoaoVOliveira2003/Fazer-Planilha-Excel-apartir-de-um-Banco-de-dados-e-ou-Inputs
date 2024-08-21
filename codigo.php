@@ -262,9 +262,6 @@ while ($bContinua) {
       $i = $final;
       // Atualiza o índice de linhas para a próxima inserção
     }
-
-    // Verifica se há mais registros a serem processados
-    $bContinua = $bd->SqlFetchNext();
 }
 
       
